@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Website Trial</title>
+        <link rel="stylesheet" href="https://dl.dropbox.com/s/vie0r4ieii4vaie/website.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+<div class="nav-bg"></div><p class="hide">harsh</p><div class="bars" id="nav-action">
+  <span class="bar"> </span>
+</div>
+<nav id="nav">
+  <ul>
+    <li class="shape-circle circle-one"><a href="#">Contact</a></li>
+    <li class="shape-circle circle-two"><a href="#">Blog</a></li>
+    <li class="shape-circle circle-three"><a href="#">Work</a></li>
+    <li class="shape-circle circle-five">
+      <a href="#">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="bg-main"><p class="hide">hagdhdbudurbhrur</p><button type="button" class="btn btn-outline-info" id="learn-more">Secondary</button></div>
+</body>
+</html>
+<script>
+ // Setting up the Variables
+var bars = document.getElementById("nav-action");
+var nav = document.getElementById("nav");
+
+
+//setting up the listener
+bars.addEventListener("click", barClicked, false);
+
+
+//setting up the clicked Effect
+function barClicked() {
+  bars.classList.toggle('active');
+  nav.classList.toggle('visible');
+}
+
+</script>
